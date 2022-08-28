@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  background-color: #1F2937;
+  padding: 16px 250px;
+  justify-content: space-between;
+}
+
+.logo {
+  color: #F9FAF8;
+  font-weight: 1000;
+  font-size: 24px;
+}
+
+.links {
+  color: #F9FAF8;
+  display: flex;
+  gap: 16px;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+.section-1 {
+  display: flex;
+  background-color: #1F2937;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 400px;
+  padding: 32px 0px;
+}
+
+.sec1_1 {
+  width: 450px;
+  flex: 0 1 auto;
+}
+
+.sign-up1 {
+  background-color: #3882FC;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 24px;
+  margin-top: 8px;
+  font-weight: bold;
+  width: 80px;
+  text-align: center;
+}
+
+.pic1 {
+  width: auto;
+  height: 200px;
+  /* flex: 1 0 auto; */
+  border: #F9FAF8 solid;
+  border-width: 1px;
+}
+
+.section-2 {
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 400px;
+  padding: 32px 0px;
+  text-align: center;
+}
+
+.information-header-text {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 1000;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.item {
+  text-align: center;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  border: 2px solid #3882FC;
+  border-radius: 8px;
+  height: auto;
+  width: 200px;
+  display: block;
+}
+
+.item p {
+  max-width: 180px;
+}
+
+.section-3 {
+  background-color: #E5E7EB;
+  color: #1F2937;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  height: 400px;
+  padding: 32px 0px;
+}
+
+.quote-text {
+  font-style: italic;
+}
+
+.section-4 {
+  display: flex;
+}
+
+.Hero-main-text {
+  color: #F9FAF8;
+  font-weight: 1000;
+  font-size: 48px;
+}
+
+.Hero-secondary-text {
+  color: #F9FAF8;
+  font-size: 18px;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: #F9FAF8;
+}
