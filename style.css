@@ -18,7 +18,7 @@ html, body, html * {
 
 .logo {
   color: #F9FAF8;
-  font-weight: 1000;
+  font-weight: 800;
   font-size: 24px;
 }
 
@@ -40,6 +40,7 @@ html, body, html * {
   justify-content: center;
   align-items: center;
   background-color: #1F2937;
+  padding: 32px;
 }
 
 .section-1 {
@@ -59,18 +60,18 @@ html, body, html * {
 
 .sign-up1 {
   background-color: #3882FC;
+  color: #F9FAF8;
   border: none;
   border-radius: 8px;
   padding: 8px 24px;
   margin-top: 8px;
   font-weight: bold;
-  width: 80px;
   text-align: center;
 }
 
 .pic1 {
   width: auto;
-  height: 200px;
+  height: 300px;
   /* flex: 1 0 auto; */
   border: #F9FAF8 solid;
   border-width: 1px;
@@ -88,7 +89,7 @@ html, body, html * {
 .information-header-text {
   color: #1F2937;
   font-size: 36px;
-  font-weight: 1000;
+  font-weight: 800;
   text-align: center;
   margin-bottom: 48px;
 }
@@ -113,6 +114,7 @@ html, body, html * {
   height: auto;
   width: 200px;
   display: block;
+  margin-bottom: 8px;
 }
 
 .item p {
@@ -126,29 +128,60 @@ html, body, html * {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  gap: 8px;
   height: 400px;
   padding: 32px 0px;
 }
 
 .quote-text {
   font-style: italic;
+  font-size: 36px;
+  max-width: 790px;
+  font-weight: 300;
+}
+
+.quote-person {
+  padding-left: 480px;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .section-4 {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  padding: 32px 0px;
+}
+
+.sec4box {
+  background-color: #3882FC;
+  border-radius: 8px;
+  display: flex;
+  padding: 50px 120px;
+  align-items: center;
+  gap: 150px;
+}
+
+.section-4 h1 {
+  color: #F9FAF8;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.section-4 .sign-up1 {
+  border: 2px solid #F9FAF8;
 }
 
 .Hero-main-text {
   color: #F9FAF8;
-  font-weight: 1000;
+  font-weight: 800;
   font-size: 48px;
 }
 
 .Hero-secondary-text {
   color: #F9FAF8;
   font-size: 18px;
-
 }
 
 ul {
